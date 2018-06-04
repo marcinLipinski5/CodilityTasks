@@ -8,8 +8,6 @@ public class Solution {
 		
 		Set<Integer> sortedA =  new HashSet<Integer>();
 		
-		
-		
 		for(int i = 0; i < A.length; i++) {
 			if(!sortedA.contains(A[i])) {
 				sortedA.add(A[i]);
